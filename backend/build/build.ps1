@@ -4,7 +4,7 @@ $buildFolder = (Get-Item -Path "./" -Verbose).FullName
 $slnFolder = Join-Path $buildFolder "../"
 $outputFolder = Join-Path $buildFolder "outputs"
 $identityServerWebHostFolder = Join-Path $slnFolder "IdentityServer/src/IdentityServer.Web.Host"
-$mainProductWebHostFolder = Join-Path $slnFolder "MainProduct/src/MainProduct.Web.Host"
+$microserviceSampleWebHostFolder = Join-Path $slnFolder "MicroserviceSample/src/MicroserviceSample.Web.Host"
 
 ## CLEAR ######################################################################
 
@@ -21,8 +21,8 @@ dotnet restore
 Set-Location $identityServerWebHostFolder
 dotnet publish --output (Join-Path $outputFolder "IdentityServerHost")
 
-Set-Location $mainProductWebHostFolder
-dotnet publish --output (Join-Path $outputFolder "MainProductHost")
+Set-Location $microserviceSampleWebHostFolder
+dotnet publish --output (Join-Path $outputFolder "MicroserviceSampleHost")
 
 ## CREATE DOCKER IMAGES #######################################################
 
@@ -32,7 +32,7 @@ Set-Location (Join-Path $outputFolder "IdentityServerHost")
 docker rmi abp/host -f
 docker build -t abp/host .
 
-Set-Location (Join-Path $outputFolder "MainProductHost")
+Set-Location (Join-Path $outputFolder "MicroserviceSampleHost")
 
 docker rmi abp/host -f
 docker build -t abp/host .

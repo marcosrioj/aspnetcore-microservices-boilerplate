@@ -8,6 +8,6 @@
 
         public const string Pages_Roles = "Pages.Roles";
 
-        public const string Pages_MainProduct_Product = "Pages.MainProduct.Product";
+        public const string Pages_MicroserviceSample_Product = "Pages.MicroserviceSample.Product";
     }
 }
