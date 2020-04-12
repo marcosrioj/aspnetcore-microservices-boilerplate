@@ -251,6 +251,8 @@ paket-files/
 .idea/
 *.sln.iml
 
-# IdentityServer
-/IdentityServer/src/IdentityServer.Web.Host/App_Data/Logs/Logs.txt
-/MicroserviceSample/src/MicroserviceSample.Web.Host/App_Data/Logs/Logs.txt
+# Logs
+/**/App_Data/Logs/Logs.txt
+
+#Docker
+build/outputs
