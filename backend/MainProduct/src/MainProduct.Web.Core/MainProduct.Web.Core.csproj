@@ -22,11 +22,11 @@
     <ProjectReference Include="..\MainProduct.EntityFrameworkCore\MainProduct.EntityFrameworkCore.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.3" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc4" />
-    <PackageReference Include="Abp.AspNetCore" Version="5.1.0" />
-    <PackageReference Include="Abp.ZeroCore" Version="5.1.0" />
-    <PackageReference Include="Abp.AspNetCore.SignalR" Version="5.1.0" />
+    <PackageReference Include="Abp.AspNetCore" Version="5.5.0" />
+    <PackageReference Include="Abp.ZeroCore" Version="5.5.0" />
+    <PackageReference Include="Abp.AspNetCore.SignalR" Version="5.5.0" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
