@@ -253,4 +253,4 @@ paket-files/
 
 # IdentityServer
 /IdentityServer/src/IdentityServer.Web.Host/App_Data/Logs/Logs.txt
-/MainProduct/src/MainProduct.Web.Host/App_Data/Logs/Logs.txt
+/MicroserviceSample/src/MicroserviceSample.Web.Host/App_Data/Logs/Logs.txt

@@ -12,7 +12,7 @@
         
         public const string SharedConnectionStringName = "Shared";
 
-        public const string MainProductConnectionStringName = "MainProduct";
+        public const string MicroserviceSampleConnectionStringName = "MicroserviceSample";
         
         #endregion
     }

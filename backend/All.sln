@@ -29,25 +29,25 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.EntityFrameworkCore"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared.Migrator", "Shared\src\Shared.Migrator\Shared.Migrator.csproj", "{3062778F-7CFE-4F20-AA68-F7DD19B729CE}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MainProduct", "MainProduct", "{36180CEF-B5D4-4714-A3F5-96FA6B7DC2B3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MicroserviceSample", "MicroserviceSample", "{36180CEF-B5D4-4714-A3F5-96FA6B7DC2B3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{44B7AE30-77CE-442D-9C4A-522689DD9EFB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{1FD12009-05C0-4788-86E4-F86B9D20ABC4}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainProduct.Core", "MainProduct\src\MainProduct.Core\MainProduct.Core.csproj", "{E73481B6-D768-4DC0-8892-3EC1DF5A2185}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceSample.Core", "MicroserviceSample\src\MicroserviceSample.Core\MicroserviceSample.Core.csproj", "{E73481B6-D768-4DC0-8892-3EC1DF5A2185}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainProduct.EntityFrameworkCore", "MainProduct\src\MainProduct.EntityFrameworkCore\MainProduct.EntityFrameworkCore.csproj", "{A6675D66-613F-4E32-A9C2-93D6D6AC8707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceSample.EntityFrameworkCore", "MicroserviceSample\src\MicroserviceSample.EntityFrameworkCore\MicroserviceSample.EntityFrameworkCore.csproj", "{A6675D66-613F-4E32-A9C2-93D6D6AC8707}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainProduct.Migrator", "MainProduct\src\MainProduct.Migrator\MainProduct.Migrator.csproj", "{4D050931-0307-455B-A5EB-A0FE8DCC4847}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceSample.Migrator", "MicroserviceSample\src\MicroserviceSample.Migrator\MicroserviceSample.Migrator.csproj", "{4D050931-0307-455B-A5EB-A0FE8DCC4847}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainProduct.Application", "MainProduct\src\MainProduct.Application\MainProduct.Application.csproj", "{1EB19E16-FEFB-4AF4-9810-E16D149930BB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceSample.Application", "MicroserviceSample\src\MicroserviceSample.Application\MicroserviceSample.Application.csproj", "{1EB19E16-FEFB-4AF4-9810-E16D149930BB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainProduct.Web.Core", "MainProduct\src\MainProduct.Web.Core\MainProduct.Web.Core.csproj", "{3DAD5059-14AE-4C09-B843-69F5A31AD711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceSample.Web.Core", "MicroserviceSample\src\MicroserviceSample.Web.Core\MicroserviceSample.Web.Core.csproj", "{3DAD5059-14AE-4C09-B843-69F5A31AD711}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainProduct.Web.Host", "MainProduct\src\MainProduct.Web.Host\MainProduct.Web.Host.csproj", "{76FB5A14-9EF3-46CF-BAB4-5F00650FF78D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceSample.Web.Host", "MicroserviceSample\src\MicroserviceSample.Web.Host\MicroserviceSample.Web.Host.csproj", "{76FB5A14-9EF3-46CF-BAB4-5F00650FF78D}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MainProduct.Tests", "MainProduct\test\MainProduct.Tests\MainProduct.Tests.csproj", "{8C8362BA-581C-436D-A89D-1C3EE8AD29C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MicroserviceSample.Tests", "MicroserviceSample\test\MicroserviceSample.Tests\MicroserviceSample.Tests.csproj", "{8C8362BA-581C-436D-A89D-1C3EE8AD29C4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tool", "Tool", "{21E4C84A-1DE0-4C62-B6CD-A264E7AFC4B5}"
 EndProject
