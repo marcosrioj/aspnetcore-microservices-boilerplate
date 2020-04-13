@@ -64,13 +64,13 @@ namespace Tool.CreateNewMicroservice.Helpers
 
             foreach (var si in di.GetDirectories("*", SearchOption.TopDirectoryOnly))
             {
-                RenameFolders(si.Parent.FullName + @"\" + si.Name, source, dest);
+                RenameFolders(@$"{si.Parent.FullName}{Path.DirectorySeparatorChar}{si.Name}", source, dest);
 
                 string strFoldername = si.Name;
                 if (strFoldername.Contains(source))
                 {
                     strFoldername = strFoldername.Replace(source, dest);
-                    string strFolderRoot = si.Parent.FullName + "\\" + strFoldername;
+                    string strFolderRoot = $"{si.Parent.FullName}{Path.DirectorySeparatorChar}{strFoldername}";
 
                     si.MoveTo(strFolderRoot);
                 }
@@ -89,7 +89,7 @@ namespace Tool.CreateNewMicroservice.Helpers
 
             foreach (var si in di.GetDirectories("*", SearchOption.TopDirectoryOnly))
             {
-                RenameFiles(si.Parent.FullName + @"\" + si.Name, source, dest);
+                RenameFiles(@$"{si.Parent.FullName}{Path.DirectorySeparatorChar}{si.Name}", source, dest);
             }
         }
 
@@ -114,7 +114,7 @@ namespace Tool.CreateNewMicroservice.Helpers
 
             foreach (var si in di.GetDirectories("*", SearchOption.TopDirectoryOnly))
             {
-                ReplaceTextWithinFiles(si.Parent.FullName + @"\" + si.Name, source, dest);
+                ReplaceTextWithinFiles(@$"{si.Parent.FullName}{Path.DirectorySeparatorChar}{si.Name}", source, dest);
             }
         }
 
