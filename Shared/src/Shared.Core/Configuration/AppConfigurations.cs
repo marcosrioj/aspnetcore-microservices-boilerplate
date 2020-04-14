@@ -59,9 +59,6 @@ namespace Shared.Configuration
                 case "Shared.EntityFrameworkCore.SharedDbContext":
                     connectionString = configuration.GetConnectionString(SharedConsts.SharedConnectionStringName);
                     break;
-                case "MicroserviceSample.EntityFrameworkCore.MicroserviceSampleDbContext":
-                    connectionString = configuration.GetConnectionString(SharedConsts.MicroserviceSampleConnectionStringName);
-                    break;
                 default:
                     connectionString = configuration.GetConnectionString(SharedConsts.SharedConnectionStringName);
                     break;

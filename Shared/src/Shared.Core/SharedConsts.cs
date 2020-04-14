@@ -11,8 +11,6 @@
         #region ConnectionStringNames
         
         public const string SharedConnectionStringName = "Shared";
-
-        public const string MicroserviceSampleConnectionStringName = "MicroserviceSample";
         
         #endregion
     }
